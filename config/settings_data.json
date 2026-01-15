@@ -14,7 +14,7 @@
     "type_body_font": "plus_jakarta_sans_n4",
     "type_subheading_font": "plus_jakarta_sans_n6",
     "type_heading_font": "plus_jakarta_sans_n6",
-    "type_accent_font": "plus_jakarta_sans_n4",
+    "type_accent_font": "plus_jakarta_sans_n7",
     "type_size_paragraph": "16",
     "type_line_height_paragraph": "body-loose",
     "type_font_h1": "heading",
@@ -85,7 +85,7 @@
           "foreground": "#18304f",
           "primary": "#000000cf",
           "primary_hover": "#000000",
-          "border": "#0000000f",
+          "border": "#cccccc",
           "shadow": "#000000",
           "primary_button_background": "#18304f",
           "primary_button_text": "#ffffff",
@@ -158,7 +158,7 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#eef1ea",
+          "background": "#eecdc7",
           "foreground_heading": "#000000",
           "foreground": "#000000cf",
           "primary": "#000000cf",
