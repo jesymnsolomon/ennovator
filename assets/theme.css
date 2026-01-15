@@ -1,0 +1,36 @@
+/* Icon Block  */
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.icon-text img {
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.icon-text span {
+    font-size: 14px;
+}
+
+/* Button  */
+a.button {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Desktop screens */
+@media screen and (min-width: 768px) {
+  .icon-text--left {
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon-text.icon-text--left img {
+    object-fit: contain;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+}

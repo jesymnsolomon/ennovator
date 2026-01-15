@@ -5,7 +5,6 @@
 {%- assign block_index = section.blocks | find_index: 'id', block.id -%}
 
 {%- unless plain_text == '' -%}
-  {% comment %} Test push  {% endcomment %}
   <slideshow-slide
     ref="slides[]"
     class="
