@@ -13,22 +13,20 @@
 }
 
 .icon-text span {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* Button  */
 a.button {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
-
-/* Hero Section  */
 
 /* Featured Variants */
 .featured-variants {
-    display: flex;
-    justify-content: center;
-    gap: rem-calc(10px);
+  display: flex;
+  justify-content: center;
+  gap: rem-calc(10px);
 }
 
 /* Desktop screens */
@@ -41,5 +39,14 @@ a.button {
     object-fit: contain;
     margin-right: 10px;
     margin-bottom: 0;
+  }
+}
+
+/* Mobile Screens  */
+@media screen and (max-width: 767px) {
+  /* Hero Section  */
+  #shopify-section-template--18436640178346__section_xk9tkW
+    .group-block:first-of-type {
+    padding-top: 100%;
   }
 }

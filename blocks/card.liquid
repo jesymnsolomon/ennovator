@@ -1,0 +1,44 @@
+{%- capture children %}
+  {% content_for 'blocks' %}
+{% endcapture %}
+
+<div class="card" style="background-color: {{ block.settings.bg_color }};">
+    {{ children }}
+</div>
+
+{% schema %}
+{
+  "name": "Basic Card",
+  "tag": null,
+  "blocks": [
+    {
+      "type": "@theme"
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "settings": [
+    {
+        "type": "header",
+        "content": "Appearance"
+    },
+    {
+        "type": "number",
+        "id": "width",
+        "label": "Width in percentage %"
+    },
+    {
+        "type": "color",
+        "label": "Background Color",
+        "id": "bg_color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Basic Card",
+      "category": "t:categories.basic"
+    }
+  ]
+}
+{% endschema %}
